@@ -15,6 +15,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          ref: gh-pages
+          path: built-site
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3.0.0
@@ -22,13 +26,27 @@ jobs:
           hugo-version: latest
           extended: true
 
-      - name: Build local ./exampleSite
-        run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../../ --baseURL https://happyhomehappyheart.github.io/
+      # - name: Build local ./exampleSite
+      #   run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../../ --baseURL https://happyhomehappyheart.github.io/
 
-      - name: Deploy to GitHub Pages
-        if: github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v4.0.0
-        with:
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
+      - name: Build
+        run: ${RUNNER_TEMP}/hugo
+
+      - name: Deploy
+        if: github.ref == 'refs/heads/main'
+        run: |
+          cp -R public/* ${GITHUB_WORKSPACE}/built-site/
+          cd ${GITHUB_WORKSPACE}/built-site
+          git add .
+          git config user.name 'kymahi'
+          git config user.email 'hentercenter@gmail.com'
+          git commit -m 'Updated site'
+          git push
+
+      # - name: Deploy to GitHub Pages
+      #   if: github.event_name == 'push'
+      #   uses: peaceiris/actions-gh-pages@v4.0.0
+      #   with:
+      #     github_token: ${{ secrets.PERSONAL_TOKEN }}
+      #     publish_branch: gh-pages
+      #     publish_dir: ./public
