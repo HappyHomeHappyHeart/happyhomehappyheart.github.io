@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://happyhomehappyheart.github.io/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/"
+                href="https://happyhomehappyheart.github.io/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://happyhomehappyheart.github.io/"
                 />
   </url><url>
-    <loc>https://example.com/license/</loc>
+    <loc>https://happyhomehappyheart.github.io/license/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/license/"
+                href="https://happyhomehappyheart.github.io/de/license/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/license/"
+                href="https://happyhomehappyheart.github.io/license/"
                 />
   </url><url>
-    <loc>https://example.com/services/</loc>
+    <loc>https://happyhomehappyheart.github.io/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/services/"
+                href="https://happyhomehappyheart.github.io/de/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/services/"
+                href="https://happyhomehappyheart.github.io/services/"
                 />
   </url><url>
-    <loc>https://example.com/legal/</loc>
+    <loc>https://happyhomehappyheart.github.io/legal/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/legal/"
+                href="https://happyhomehappyheart.github.io/de/legal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/legal/"
+                href="https://happyhomehappyheart.github.io/legal/"
                 />
   </url>
 </urlset>
