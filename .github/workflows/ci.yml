@@ -1,15 +1,12 @@
-name: CI
-
+name: Publish to GH Pages
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
-    branches:
-      - master
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest 
     steps:
       - name: Checkout source
@@ -28,10 +25,6 @@ jobs:
         run: |
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.155.1/hugo_extended_0.155.1_linux-amd64.tar.gz'
           tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
-
-      # - name: Build local ./exampleSite
-      #   run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../../ --baseURL https://happyhomehappyheart.github.io/
-
       - name: Build
         run: ${RUNNER_TEMP}/hugo
 
@@ -45,11 +38,3 @@ jobs:
           git config user.email 'hentercenter@gmail.com'
           git commit -m 'Updated site'
           git push
-
-      # - name: Deploy to GitHub Pages
-      #   if: github.event_name == 'push'
-      #   uses: peaceiris/actions-gh-pages@v4.0.0
-      #   with:
-      #     github_token: ${{ secrets.PERSONAL_TOKEN }}
-      #     publish_branch: gh-pages
-      #     publish_dir: ./public
