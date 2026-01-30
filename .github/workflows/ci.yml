@@ -24,10 +24,6 @@ jobs:
           ref: gh-pages
           path: built-site
 
-      - name: Setup Dir
-        run: |
-          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
-
       - name: Setup Hugo
         run: |
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.155.1/hugo_extended_0.155.1_linux-amd64.tar.gz'
