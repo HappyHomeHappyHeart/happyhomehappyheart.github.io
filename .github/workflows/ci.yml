@@ -23,11 +23,12 @@ jobs:
           extended: true
 
       - name: Build local ./exampleSite
-        run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../ --baseURL https://happyhomehappyheart.github.io/
+        run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../../ --baseURL https://happyhomehappyheart.github.io/
 
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./public
