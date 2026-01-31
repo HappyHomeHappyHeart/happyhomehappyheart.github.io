@@ -17,6 +17,9 @@ title = "Jane Doe - Nutrition Coach & Chef Consultant"
 # enable emoji processing in Markdown (valid only for pure markdown content)
 enableEmoji = true
 
+relativeURLs = true
+canonifyURLs = true
+
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 
