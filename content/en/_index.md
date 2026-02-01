@@ -9,7 +9,7 @@ header_use_video: false
 header_logo: "images/h4_logo_3@0.5x.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Happy Home, Happy Heart Services"
+header_headline: "Happy Home, Happy Heart"
 header_subheadline: "<b>Clean</b> Houses, <b>Run</b> Errands, & <b>Organize</b> Lives"
 
 # Add a 'Go back to top' item to the navigation menu
