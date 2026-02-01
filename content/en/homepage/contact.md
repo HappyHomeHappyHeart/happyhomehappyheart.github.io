@@ -4,8 +4,10 @@ weight: 4
 header_menu: true
 ---
 
-{{- partial "contact_form.html" . -}}
+Let us know what you need to make your home and heart happy!
+
+{{<contact_form>}}
 
 {{<contact_list>}}
 
-Let us get in touch!
+Let's get in touch!
