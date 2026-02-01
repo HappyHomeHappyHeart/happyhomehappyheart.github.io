@@ -6,11 +6,11 @@ header_image: "images/cover-image.jpg"
 header_use_video: false
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/chef-hat.png"
+header_logo: "images/h4_logo_3@0.5x.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Kyle Hinterser"
-header_subheadline: "<b>Website</b> Maintainer & <b>Tech</b> Guy"
+header_headline: "Happy Home, Happy Heart Services"
+header_subheadline: "<b>Clean</b> Houses, <b>Run</b> Errands, & <b>Organize</b> Lives"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
