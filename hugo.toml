@@ -89,8 +89,8 @@ canonifyURLs = true
 
     [[params.contacts]]
         label = "email"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        value = "happyhomehappyheartco@gmail.com"
+        url = "mailto:happyhomehappyheartco@gmail.com"
         icon = "fa fa-envelope"
 
     # Add additional contacts here!

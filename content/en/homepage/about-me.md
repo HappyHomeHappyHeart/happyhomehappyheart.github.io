@@ -1,21 +1,11 @@
 ---
 title: "About Us"
-weight: 3
+weight: 1
 header_menu: true
 ---
 
-<!-- 
-Neither embedded figure shortcode, nor Markdown hook were able to render image from asset. 
-You would have to .Resouces.GetMatch via custom shortcode.
-![Jane Doe](/images/asset-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg) 
--->
-![Jane Doe](/images/static-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg)
-See DE language for more examples of image management. There are multiple approaches.
+![We clean!](/images/about_us_cover.png)
 
-##### Professional Experience
+##### Moms Who Care, Bringing Love and Dedication
 
-A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.
-
-----
-
-In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.
+At our core, we are a pair of mothers, grandmothers, and sisters who love to help others, clean, and bring smiles to peoples' faces when they come home to find a clean house and completed errands, allowing them to just relax and be with their family. We treat every home with the same care and attention we would give our own. If keeping up with the day-to-day condition of your home has become frustrating or overwhelming, and there simply aren’t enough hours in the day to manage it all yourself, it may be time to bring in an extra set of hands. Our team is here to help restore comfort, order, and peace of mind to your home.
