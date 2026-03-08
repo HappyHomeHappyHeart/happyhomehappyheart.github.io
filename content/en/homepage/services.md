@@ -10,43 +10,43 @@ We offer a range of services from cleaning, to organizing, to running errands! L
 
 ### Home & Office Services
 
-- Tidying, light surface cleaning, and organizing
-- Laundry and ironing
-- Change sheets, make beds
-- Maintain order in home spaces
-- Seasonal closet switch and organization
-- Tidy storage spaces (linen closet, coat closet, etc.)
-- Restock bathrooms with tissue paper, soap, toiletries, etc.
+• Tidying, light surface cleaning, and organizing
+• Laundry and ironing
+• Change sheets, make beds
+• Maintain order in home spaces
+• Seasonal closet switch and organization
+• Tidy storage spaces (linen closet, coat closet, etc.)
+• Restock bathrooms with tissue paper, soap, toiletries, etc.
 
 ### Kitchen & Food Prep
 
-- Meal Planning
-- Grocery Shopping
-- Meal preparation
-- Organzing meal delivery services
-- Wash and put away dishes
-- Load, run, and unload dish washer
-- Refrigerator/Freezer/Pantry clean out and organization
+• Meal Planning
+• Grocery Shopping
+• Meal preparation
+• Organzing meal delivery services
+• Wash and put away dishes
+• Load, run, and unload dish washer
+• Refrigerator/Freezer/Pantry clean out and organization
 
 ### Errands
 
-- Amazon and store returns
-- Bring packages and mail to post office
-- Store order pickups
-- Donation drop-offs
-- Drop off/Pick up dry cleaning
+• Amazon and store returns
+• Bring packages and mail to post office
+• Store order pickups
+• Donation drop-offs
+• Drop off/Pick up dry cleaning
 
 ### Celebration Services
 
-- Gift shopping, ordering, and pick-up
-- Gift wrapping
-- Holiday/Birthday decor (Put up and take down)
-- Holiday/Birthday cards/invitations
-- Holiday/Birthday hosting and prep
+• Gift shopping, ordering, and pick-up
+• Gift wrapping
+• Holiday/Birthday decor (Put up and take down)
+• Holiday/Birthday cards/invitations
+• Holiday/Birthday hosting and prep
 
 ### Beyond our Scope of Work
 
-- Pet waste cleanup
-- Blood/bodily fluid cleanup
-- Child care/transportation
-- Deep cleaning
+• Pet waste cleanup
+• Blood/bodily fluid cleanup
+• Child care/transportation
+• Deep cleaning
