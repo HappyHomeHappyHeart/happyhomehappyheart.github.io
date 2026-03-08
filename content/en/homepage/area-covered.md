@@ -8,9 +8,9 @@ header_menu: true
 
 We want to take care of you! We will go:
 
-• As far west as Wentzville, MO
-• As far north as Bethalto, IL
-• As far East as Hamel, IL
-• As far south as Belleville, IL
+- As far west as Wentzville, MO
+- As far north as Bethalto, IL
+- As far East as Hamel, IL
+- As far south as Belleville, IL
 
 And everywhere in between!
