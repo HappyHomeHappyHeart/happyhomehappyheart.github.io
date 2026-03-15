@@ -89,9 +89,21 @@ canonifyURLs = true
 
     [[params.contacts]]
         label = "email"
-        value = "happyhomehappyheartco@gmail.com"
-        url = "mailto:happyhomehappyheartco@gmail.com"
+        value = "help@happyhomehappyhearts.com"
+        url = "mailto:help@happyhomehappyhearts.com"
         icon = "fa fa-envelope"
+
+    [[params.contacts]]
+        label = "phone"
+        value = "Illinois: (618) 980-0961"
+        url = "tel:+16189800961"
+        icon = "fa fa-phone"
+
+    [[params.contacts]]
+        label = "phone"
+        value = "Missouri: (636) 515-4028"
+        url = "tel:+16365154028"
+        icon = "fa fa-phone"
 
     # Add additional contacts here!
     # [[params.contacts]]
