@@ -32,8 +32,7 @@
   --footer-color-background: #22343a;
   --footer-color: #bbc7cc;
   /* === Lists === */
-  /* define list element for unnumbered lists, leave empty for default list element */
-  --ul-li-icon: fa-asterisk; }
+  /* define list element for unnumbered lists, leave empty for default list element */ }
 
 body {
   --color-text: var(--section-light-text-color);
@@ -220,9 +219,7 @@ a.fn-item {
   margin: 0rem auto;
   padding-bottom: 4rem;
   padding-top: 4rem;
-  height: 70%;
-  word-break: normal;
-  hyphens: auto; }
+  height: 70%; }
 
 /* ======= Single pages =========== */
 .page-template {
